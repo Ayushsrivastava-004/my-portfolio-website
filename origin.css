@@ -1,0 +1,228 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#navbar{
+    margin-top:20px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+a{
+	color:white;
+	margin-right: 200px;
+	text-decoration:none;
+  transition-duration:0.5s;
+  font-size:20px;
+
+}
+
+a:hover{
+	background-color:#f0880f;
+}
+
+
+body{
+	background-image:url("bdimage.jpg");
+	background-size: cover;
+}
+
+#system{
+	text-align:left;
+	font-size: 50px;
+	color:white;
+	margin:200px 50px 500px 600px;
+}
+
+/**ABOUT STYLE**/
+
+
+.about-text{
+	height: 2000px;
+	width: 700px;
+	margin-top:100px;
+	color: white;
+	margin-left: 150px;
+	font-size: 18px;
+	font-family: cursive;
+
+}
+
+.about-photo{
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin:270px 200px 0px 0px;
+	background-image: url("ayush.jpg");
+	background-size: cover;
+}
+
+/** SKIILS STYLING **/
+
+.skills{
+	color: white;
+	font-family: cursive;
+	font-size: 25px;
+  margin:120px 0px 0px 150px;
+
+}
+
+.iteams{
+	font-size: 25px;
+}
+
+.skills2{
+	color: white;
+	font-family: cursive;
+	font-size: 25px;
+  margin:80px 0px 0px 150px;
+}
+
+.iteams2{
+	font-size: 25px;
+}
+
+.skills3{
+	color: white;
+	font-family: cursive;
+	font-size: 25px;
+  margin:80px 0px 0px 150px;
+}
+
+.iteams3{
+	font-size: 25px;
+}
+
+.tech{
+	height: 270px;
+	width: 500px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin:230px 250px 0px 0px;
+	background-image: url("tech.png");
+	background-size: cover;
+}
+
+.soft{
+	height: 250px;
+	width: 500px;
+	color: yellow;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin:740px 250px 0px 0px;
+  background-image: url("soft.png");
+	background-size: cover;
+}
+
+
+ /** CERTIFICATE STYLING **/
+
+ .workshop{
+ 	color: white;
+ 	margin:100px 0px 0px 150px;
+ 	font-family: cursive;
+ 	width: 720px;
+ 	font-size: 20px;
+ }
+ 
+ .arrange{
+ 	margin-left: 100px;
+ }
+
+ .certificate{
+ 	height: 300px;
+ 	width: 300px;
+ 	border-radius: 50%;
+ 	position:fixed;
+    top:200px;
+    right:200px;
+ 	background-image: url("certificateimage.png");
+ 	background-size: cover;
+ }
+
+ .text-box a{
+ 	height: 20px;
+ 	width: 108px;
+ 	color: white;
+ 	position: fixed;
+ 	top:510px;
+ 	right:90px;
+ 	font-size: 18px;
+ }
+
+
+ /** CONTACT STYLING **/
+
+.thanks-note{
+	height: 400px;
+	width:600px;
+	color: white;
+	font-size: 18px;
+	font-family: cursive;
+	margin:90px 0px 0px 480px;
+	/**text-align: center;**/
+}
+
+.note2{
+	height: 200px;
+	width:650px;
+	color: white;
+	font-size: 18px;
+	margin-left: 480px;
+	margin-top: 100px;
+}
+
+.social-media{
+	color: white;
+	height: 480px;
+	width: 650px;
+	margin-left: 480px;
+	margin-top: 100px;
+	text-align: center;
+	font-family: cursive;
+}
+
+.linkedin{
+	border: 2px solid #141614;
+	height: 70px;
+	width: 70px;
+	background-image: url("linkedin.png");
+	background-size: cover;
+}
+
+.instagram{
+	border: 2px solid #141614;
+	height: 70px;
+	width: 70px;
+	background-image: url("instagram.png");
+	background-size: cover;
+}
+
+.twitter{
+	border: 2px solid #141614;
+	height: 70px;
+	width: 70px;
+	background-image: url("twitter.jpg");
+	background-size: cover;
+}
+
+.resume{
+	border: 2px solid #141614;
+	height: 70px;
+	width: 70px;
+	background-image: url("resume.png");
+	background-size: cover;
+}
+
+.profile{
+	height: 20px;
+	width: 200px;
+	margin-left: 150px;
+	margin-top: 20px;
+}
